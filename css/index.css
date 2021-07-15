@@ -1,0 +1,179 @@
+/*--------------
+ google font
+---------------- */
+body{
+font-family: 'Poppins', sans-serif;
+
+}
+/*---------------
+ top-write style
+ ---------------- */
+ .container{
+       background-color: #2D25A0
+       ;
+       width: 1340px;
+       height: 677px;
+       margin: 0px;
+       padding: 0px;
+ }
+ .show-banner{
+       display: flex;
+ }
+ .show-banner:hover{
+       transform: scale(0.8);
+       transition: transform 2s ease-in-out;
+ }
+ .top-write{
+       padding-left: 153px;
+       margin-top: 142px;
+ }
+ .top-banner{
+       padding-left: 50px;
+       margin-top: 50px;
+ }
+ .top-write h3{
+       font-size: 50px;
+      height: 485px;
+      height: 330px;
+      color: white;
+      
+ }
+ .button{
+     font-size: 20px;
+       width: 168px;
+       height:44px;
+       background-color:yellowgreen
+
+       ;
+       border-radius: 10px;
+      
+ }
+ .button a{
+       color: azure;
+      font-weight: 20px;
+      text-decoration: none;
+ }
+.top-banner img{
+      margin-top:100px ;
+      margin-right: 100px;
+      height:438px ;
+      width: 
+      556.01px;
+}
+/*-----------------------
+ 2-container style start
+ ------------------------ */
+.two-container{
+       padding-top: 50px;
+      padding-left: 100px; 
+      
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      }
+      
+
+.artical{
+      background-color: #aaaaaa;
+      height: 750px;
+      width: 300px;
+      border-radius: 30px;
+}
+      
+
+.players img{
+      height: 300px;
+      width: 300px;
+      border-radius: 30px;
+}
+.player-title{
+      padding-left: 30px;
+}
+.player-discription p{
+      width: 200px;
+      height: 154px;
+      padding-left: 30px;
+      
+      
+      
+}
+/*------------------ 
+section three style
+-------------------- */
+.three-section{
+      margin-left: 220px;
+      height: 300px;
+      width: 400px;
+      display: flex;
+   margin-top: 60px;
+   /* margin-left: 100px; */
+   
+   
+}
+.three-section img{
+      height: 500px;
+      width: 1000px;
+      border-radius: 80px;
+}
+.caption{
+      margin-top: 20px;
+      font-size: 50px;
+} 
+/*-------------
+ footer style
+ ------------- */
+ .footer-img img{
+     margin-top: 250px;
+    margin-left: 400px;
+      Width: 483.87px;
+      Height: 110px;
+      
+ }
+ .icon{
+      text-align: center;
+       
+       
+ }
+  .fa-youtube{
+       color:red;
+       font-size: 40px;
+ }
+.fa-instagram{
+      
+
+      color:#3f729b;
+      font-size: 40px;
+
+}
+.fa-twitter-square{
+      color: skyblue;
+      font-size: 40px;
+}
+.fa-facebook-square{
+      color: blue;
+      font-size: 40px;
+}
+.copy-right{
+      text-align: center;
+}
+/*-------------
+ Media Queries 
+ -----------  */
+ /*--------------
+  Mobile Devices
+  -------------- */
+  @media (max-width:688px) {
+      .container{
+           
+      }
+        .show-banner{
+              background-color: red;
+              grid-template-columns: repeat(1, 1fr);
+              width: 100%;
+        }
+        
+  }
+
+
+
+
